@@ -167,7 +167,6 @@ public class ChatControllerIntegrationTest {
         assertEquals(1, messages.length);
         assertEquals("Hello, this is a test message!", messages[0].getContent());
     }
-
     @TestConfiguration
     static class TestSecurityConfig {
 
